@@ -1,6 +1,6 @@
 #ifndef WEATHER_IO
 #define WEATHER_IO
-
+#include <stdio.h>
 /**
 This function returns 0 if the file name specified parameter contains a valid formatted weather
 data file. The function returns the first line number that an error occurred. At a minimum you

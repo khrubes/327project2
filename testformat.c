@@ -5,14 +5,13 @@
  depending if the file is a valid formatted weather data file. Your executable must be called
  “testformat”
  */
-#include <stdio.h>
-#include "weatherio.h"
-//The first of these is a count of the arguments supplied to the program and the second is an array of pointers to the strings which are those arguments
-int main(int argc, const char * argv[]) {
-	if(argc == 2) {
-		return validate_format(argv[1]);
-	} else {
-		printf("No input file specified.\n");
-		return 1;
-	}
-}
+//#include <stdio.h>
+//#include "weatherio.h"
+//int main(int argc, const char * argv[]) {
+//	if(argc == 2) {
+//		return validate_format(argv[1]);
+//	} else {
+//		printf("No input file specified.\n");
+//		return 1;
+//	}
+//}
